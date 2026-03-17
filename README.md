@@ -72,27 +72,6 @@ A end-to-end data analytics project built on a simulated banking dataset using P
 
 ---
 
-## Project File Structure
-
-```
-bank-transaction-analytics/
-├── data/
-│   ├── generate_data.py       -- Python script to generate dataset
-│   ├── customers.csv          -- 1000 customer records
-│   ├── accounts.csv           -- 1000 account records
-│   ├── transactions.csv       -- 5000 transaction records
-│   └── branches.csv           -- 5 branch records
-├── sql/
-│   ├── 01_create_tables.sql   -- CREATE TABLE statements
-│   ├── 03_basic_analysis.sql  -- Queries for Q1 to Q4
-│   ├── 04_customer_analysis.sql -- Queries for Q5 to Q8
-│   └── 05_advanced_analysis.sql -- Queries for Q9 to Q12
-├── findings.md                -- Business insights for all 12 queries
-└── README.md                  -- Project overview
-```
-
----
-
 ## How to Run
 
 ### Step 1 - Install Requirements
